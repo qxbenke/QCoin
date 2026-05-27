@@ -60,7 +60,7 @@ export default function App() {
         }}
       >
         <img
-          src="./assets/qx-logo.png"
+          src="assets/qx-logo.png"
           alt="Q Coin"
           style={{
             width: "220px",
