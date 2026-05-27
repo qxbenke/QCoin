@@ -102,20 +102,23 @@ export default function App() {
             flexWrap: "wrap",
           }}
         >
-          <button
-            style={{
-              padding: "18px 40px",
-              borderRadius: "14px",
-              border: "none",
-              background: "#2563eb",
-              color: "white",
-              fontSize: "18px",
-              cursor: "pointer",
-              boxShadow: "0 0 25px rgba(37,99,235,0.6)",
-            }}
-          >
-            Buy QX
-          </button>
+<button
+  onClick={() =>
+    window.open("https://app.ston.fi", "_blank")
+  }
+  style={{
+    padding: "18px 40px",
+    borderRadius: "14px",
+    border: "none",
+    background: "#2563eb",
+    color: "white",
+    fontSize: "18px",
+    cursor: "pointer",
+    boxShadow: "0 0 25px rgba(37,99,235,0.6)",
+  }}
+>
+  Buy QX
+</button>
 
           <button
             style={{
