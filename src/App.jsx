@@ -1,3 +1,4 @@
+import { TonConnectButton } from '@tonconnect/ui-react'
 export default function App() {
   return (
     <div
@@ -37,7 +38,9 @@ export default function App() {
 
           <h2>Q Coin</h2>
         </div>
-
+  {/* 钱包连接按钮 */}
+  <TonConnectButton />
+</div>
         <div
           style={{
             display: "flex",
