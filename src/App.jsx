@@ -27,7 +27,7 @@ export default function App() {
           }}
         >
           <img
-            src="./assets/qx-logo.png"
+            src="https://raw.githubusercontent.com/qxbenke/QCoin/main/assets/qx-logo.png"
             alt="Q Coin"
             style={{
               width: "50px",
