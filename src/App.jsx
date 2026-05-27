@@ -104,7 +104,7 @@ export default function App() {
         >
 <button
   onClick={() =>
-    window.open("https://app.ston.fi", "_blank")
+    window.open("https://app.ston.fi/swap?chartVisible=false&ft=TON&tt=EQC-0juuPuAL3wt7jeXXnRQ9Fk_1Lge75bc12TcgImRTOkAE", "_blank")
   }
   style={{
     padding: "18px 40px",
